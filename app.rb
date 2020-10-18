@@ -2,7 +2,7 @@ require 'roda'
 require './dal'
 
 class App < Roda
-    plugin: json
+    plugin :json
 
     route do |r|
 
